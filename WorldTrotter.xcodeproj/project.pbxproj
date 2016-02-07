@@ -12,6 +12,7 @@
 		41F155C51C679B7400E16589 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41F155C31C679B7400E16589 /* Main.storyboard */; };
 		41F155C71C679B7400E16589 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41F155C61C679B7400E16589 /* Assets.xcassets */; };
 		41F155CA1C679B7400E16589 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41F155C81C679B7400E16589 /* LaunchScreen.storyboard */; };
+		41F155D41C67AB1B00E16589 /* ConversionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F155D31C67AB1B00E16589 /* ConversionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		41F155C61C679B7400E16589 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		41F155C91C679B7400E16589 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		41F155CB1C679B7400E16589 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41F155D31C67AB1B00E16589 /* ConversionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConversionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		41F155BE1C679B7400E16589 /* WorldTrotter */ = {
 			isa = PBXGroup;
 			children = (
+				41F155D31C67AB1B00E16589 /* ConversionViewController.swift */,
 				41F155BF1C679B7400E16589 /* AppDelegate.swift */,
 				41F155C11C679B7400E16589 /* ViewController.swift */,
 				41F155C31C679B7400E16589 /* Main.storyboard */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				41F155C21C679B7400E16589 /* ViewController.swift in Sources */,
+				41F155D41C67AB1B00E16589 /* ConversionViewController.swift in Sources */,
 				41F155C01C679B7400E16589 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
